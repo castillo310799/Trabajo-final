@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:background="@color/morado"
+        android:textColor="@color/blanco"/>
+
+
+    <TextView
+        android:id="@+id/campoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="10dp"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marca"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/blanco"
+        android:background="@color/morado"/>
+
+    <TextView
+        android:id="@+id/campomarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="10dp"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modelo"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/blanco"
+        android:background="@color/morado"/>
+
+
+    <TextView
+        android:id="@+id/campomodelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="19dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chasis"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/blanco"
+        android:background="@color/morado"/>
+
+    <TextView
+        android:id="@+id/campochasis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="19dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motor"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/blanco"
+        android:padding="10dp"
+        android:background="@color/morado"/>
+    />
+
+    <TextView
+        android:id="@+id/campomotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="19dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Año"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/blanco"
+        android:background="@color/morado"/>
+
+    />
+    <TextView
+        android:id="@+id/campoanio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="19dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Combustible"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/blanco"
+        android:background="@color/morado"/>
+    />
+    <TextView
+        android:id="@+id/campocombustible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="19dp"
+        android:padding="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

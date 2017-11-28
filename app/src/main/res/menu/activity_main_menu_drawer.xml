@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vehiculos"
+            android:icon="@drawable/carro_icono"
+            android:title="Vehiculo" />
+        <item
+            android:id="@+id/nav_mantenimiento"
+            android:icon="@drawable/icono_mantenimiento"
+            android:title="Mantenimiento" />
+        <item
+            android:id="@+id/nav_kilometraje"
+            android:icon="@drawable/icono_kilometraje"
+            android:title="Kilometrage" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/icono_ubicacion"
+            android:title="Ubicación" />
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Creditos" />
+    </group>
+
+</menu>
